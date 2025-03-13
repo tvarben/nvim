@@ -27,7 +27,11 @@ HIGH PRIORITY TASKS
  
  --see how many lsp/formatters are attached on a file
 
- GITHUB integration
+ --Learn git commands
+ --git clone repo to laptop
+ 
+
+ GIT/GITHUB integration
 
  '='  sign doesnt work on lily58 VIAL firmaware
  look into ray-x/lsp_signature.nvim if not happy with current signature help 
@@ -57,6 +61,7 @@ LOW PRIORITY TASKS
 --look into mini.nvim
 --how to get rid of treesitter highlighting if not needed anymore, can be annoying 
 --modify statusline to make more personal
+
 
 
 BUGS
