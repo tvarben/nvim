@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+
+LSP
+--GET LSP [1/2]
+  --treesitter? https://www.youtube.com/watch?v=MpnjYb-t12A&ab_channel=TJDeVries
+  --syntax highlight delay after writing code or until enter normal mode
+	--learn and document what all new keybindings do and document them / can rename them on whichkey panel
+
+
+
+
+
+
+
+
+
+
+
+HIGH PRIORITY TASKS
+ 
+ --see how many lsp/formatters are attached on a file
+
+ GITHUB integration
+
+ '='  sign doesnt work on lily58 VIAL firmaware
+ look into ray-x/lsp_signature.nvim if not happy with current signature help 
+
+
+--LEARN NVIM MACROS 
+--LEARN TMUX
+
+
+
+
+
+
+
+MEDIUM IMPORTANT TASKS
+ 
+--get debugger
+--get BUFFERS -kinda started it 
+--HOW TO RESIZE SPLIT WINDOWS IN NVIM
+
+
+
+
+LOW PRIORITY TASKS 
+
+-- WARNING |mini.icons| is not installed
+--look into mini.nvim
+--how to get rid of treesitter highlighting if not needed anymore, can be annoying 
+--modify statusline to make more personal
+
+
+BUGS
+--<C-n> and <C-p> for nvim-cmp navigation needs has to be unmapped and mapped again for it to work
+
+--lspzero signature help highlights first parameter in different color which isnt that big of a deal
+
+--when pasting a clipboard line it gets split between /
+  example: jose-elias-alvarez/null-ls.nvim gets split into:
+  jose-elias-alvarez
+  /
+  null-ls.nvim
+
+
+
+
+DONE TASKS
+--fixed highlight groups to look like vscode's highlight scope in indent-blankline
+--vscode colorscheme fixed
+--get function colorizers {} [] () [done]
+--fixed yanked highlight
+--autocomplete now works with <C-y>
+--changed textbox background and adjusted it to look better  
+--increased whickey delay before popup
+-- changed function key on lily58 
+
+--show arguments when calling a function by creating a autocmd in lspzero:
+    --vim.api.nvim_create_autocmd({ "CursorHoldI", "TextChangedI" }, {
+    --vim.lsp.handlers['textDocument/signatureHelp'] = vim.lsp.with(
+
+
+--NICER COMMANDLINE WITH STATUSLINE
