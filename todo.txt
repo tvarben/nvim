@@ -10,7 +10,7 @@ LSP
 --GET LSP [1/2]
   --treesitter? https://www.youtube.com/watch?v=MpnjYb-t12A&ab_channel=TJDeVries
   --syntax highlight delay after writing code or until enter normal mode
-	--learn and document what all new keybindings do and document them / can rename them on whichkey panel
+	--learn and document what all new keybindings do 
 
 
 
@@ -18,7 +18,10 @@ LSP
 
 
 HIGH PRIORITY TASKS
- --Learn git commands
+
+--FANCIER TERMINAL ON UBUNTU LAPTOP/fix oh-my-posh
+--CMAKE FOR SCHOOL PROJECTS
+ --LEARN GIT COMMANDS
  --LEARN TMUX
 --GIT/GITHUB integration
 --LEARN NVIM MACROS 
@@ -32,8 +35,8 @@ HIGH PRIORITY TASKS
 
 MEDIUM IMPORTANT TASKS
  
---get debugger
 --look into ray-x/lsp_signature.nvim if not happy with current signature help 
+--get debugger
 --Learn more about BUFFERS 
 
 
@@ -84,4 +87,4 @@ DONE TASKS
 --one lsp/formatters are attached on a file it seems.
  '='  sign works on lily58 VIAL firmaware
 
- --git clone repo to laptop
+ --laptop connected to github

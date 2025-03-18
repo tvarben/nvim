@@ -1,13 +1,14 @@
-vim.opt.clipboard = "unnamedplus" -- Enables full clipboard support
+vim.opt.clipboard = "unnamedplus"
 vim.g.clipboard = {
-  name = "xclip",
+  name = "win32yank",
   copy = {
-    ["+"] = "xclip -selection clipboard", -- Copy to Windows clipboard
-    ["*"] = "xclip -selection clipboard", -- Copy to Windows clipboard
+    ["+"] = "win32yank.exe -i --crlf",
+    ["*"] = "win32yank.exe -i --crlf",
+
   },
   paste = {
-    ["+"] = "xclip -selection clipboard -o", -- Copy to Windows clipboard
-    ["*"] = "xclip -selection clipboard -o", -- Copy to Windows clipboard
+    ["+"] = "win32yank.exe -o --lf",
+    ["*"] = "win32yank.exe -o --lf",
   },
   cache_enabled = 0,
 }
