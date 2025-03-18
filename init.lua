@@ -13,17 +13,4 @@ require("config")
 --if we want to require a file inside a directory we need to write require("directory.filename") where directory is where the file is stored and file is the name of the file want to use
 
 -----------------------------------------------------------
-vim.opt.clipboard = "unnamedplus" -- Enables full clipboard support
-vim.g.clipboard = {
-  name = "win32yank",
-  copy = {
-    ["+"] = "win32yank.exe -i --crlf", -- Copy to Windows clipboard
-    ["*"] = "win32yank.exe -i --crlf",
-  },
-  paste = {
-    ["+"] = "win32yank.exe -o --lf", -- Paste from Windows clipboard
-    ["*"] = "win32yank.exe -o --lf",
-  },
-  cache_enabled = 0,
-}
 -----------------------------------------------------------
