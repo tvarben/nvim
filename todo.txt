@@ -18,27 +18,13 @@ LSP
 
 
 
-
-
-
-
-
 HIGH PRIORITY TASKS
- 
- --see how many lsp/formatters are attached on a file
-
  --Learn git commands
  --git clone repo to laptop
- 
-
+ --LEARN TMUX
  GIT/GITHUB integration
-
- '='  sign doesnt work on lily58 VIAL firmaware
- look into ray-x/lsp_signature.nvim if not happy with current signature help 
-
-
 --LEARN NVIM MACROS 
---LEARN TMUX
+
 
 
 
@@ -49,25 +35,25 @@ HIGH PRIORITY TASKS
 MEDIUM IMPORTANT TASKS
  
 --get debugger
---get BUFFERS -kinda started it 
---HOW TO RESIZE SPLIT WINDOWS IN NVIM
-
+--Learn more about BUFFERS 
+--look into ray-x/lsp_signature.nvim if not happy with current signature help 
 
 
 
 LOW PRIORITY TASKS 
 
--- WARNING |mini.icons| is not installed
+--modify statusline to make more personal
+--change colorscheme to look like vscode dark high contrast
+--how to resize split windows in nvim if not wanting to use mouse
+-- warning |mini.icons| is not installed
 --look into mini.nvim
 --how to get rid of treesitter highlighting if not needed anymore, can be annoying 
---modify statusline to make more personal
-
 
 
 BUGS
---<C-n> and <C-p> for nvim-cmp navigation needs has to be unmapped and mapped again for it to work
+--<C-n> and <C-p> for nvim-cmp navigation needs has to be unmapped and mapped again for it to work. Can be found in lspzero file.
 
---lspzero signature help highlights first parameter in different color which isnt that big of a deal
+--lspzero signature help highlights first parameter in different color which isnt that big of a deal Can be found in lspzero file.
 
 --when pasting a clipboard line it gets split between /
   example: jose-elias-alvarez/null-ls.nvim gets split into:
@@ -94,3 +80,5 @@ DONE TASKS
 
 
 --NICER COMMANDLINE WITH STATUSLINE
+--one lsp/formatters are attached on a file it seems.
+ '='  sign works on lily58 VIAL firmaware
