@@ -47,6 +47,7 @@ return {
       end
     })
 
+    --could be changed for ray-x/lsp_signature.nvim
     vim.api.nvim_create_autocmd({ "CursorHoldI", "TextChangedI" }, {
       pattern = "*",
       callback = function()
@@ -94,9 +95,10 @@ return {
         prefix = "󰻀",
       },
       underline = true,
-      update_in_insert = true,
+      update_in_insert = false,
       severity_sort = true,
     })
+    -- For Neovim 0.6.0 and newer
 
     lsp_zero.extend_lspconfig({
       sign_text = true,

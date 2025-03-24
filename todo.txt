@@ -19,11 +19,9 @@ LSP
 
 HIGH PRIORITY TASKS
 
---FANCIER TERMINAL ON UBUNTU LAPTOP/fix oh-my-posh
+--VIM MOTIONS IN TMUX TERMINAL USING NVIM-TMUX-NAVIGATOR
 --CMAKE FOR SCHOOL PROJECTS
  --LEARN GIT COMMANDS
- --LEARN TMUX
---GIT/GITHUB integration
 --LEARN NVIM MACROS 
 
 
@@ -87,4 +85,5 @@ DONE TASKS
 --one lsp/formatters are attached on a file it seems.
  '='  sign works on lily58 VIAL firmaware
 
- --laptop connected to github
+ --laptop connected to config repo 
+ --LEARN TMUX and maybe change pane splitting keybindings

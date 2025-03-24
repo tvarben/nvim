@@ -27,6 +27,6 @@ opt.wrap = false
 --makes insert mode cursor small
 opt.guicursor =
     "n-v-c:block-Cursor/Cursor-blinkwait100-blinkon100-blinkoff100," ..
-    "i-ci-ve:ver15,r-cr-o:hor20"
+    "i-ci-ve:ver15,r-cr-o:hor40"
 
 --

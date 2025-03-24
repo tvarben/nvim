@@ -1,14 +1,14 @@
 vim.opt.clipboard = "unnamedplus"
 vim.g.clipboard = {
-  name = "win32yank",
+  name = "xclip",
   copy = {
-    ["+"] = "win32yank.exe -i --crlf",
-    ["*"] = "win32yank.exe -i --crlf",
+    ["+"] = "xclip -selection clipboard",
+    ["*"] = "xclip -selection clipboard",
 
   },
   paste = {
-    ["+"] = "win32yank.exe -o --lf",
-    ["*"] = "win32yank.exe -o --lf",
+    ["+"] = "xclip -selection clipboard -o",
+    ["*"] = "xclip -selection clipboard -o",
   },
   cache_enabled = 0,
 }
