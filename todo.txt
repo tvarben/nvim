@@ -1,27 +1,15 @@
 
-
-
-
-
-
-
-
-LSP
---GET LSP [1/2]
-  --treesitter? https://www.youtube.com/watch?v=MpnjYb-t12A&ab_channel=TJDeVries
-	--learn and document what all new keybindings do 
-
-
-
-
-
-
 HIGH PRIORITY TASKS
 
+--GET DEBUGGER
 --LEARN GIT COMMANDS
 --LEARN NVIM MACROS 
 
 
+
+LSP
+  --treesitter? https://www.youtube.com/watch?v=MpnjYb-t12A&ab_channel=TJDeVries
+	--learn and document what all new keybindings do 
 
 
 
@@ -31,7 +19,6 @@ HIGH PRIORITY TASKS
 MEDIUM IMPORTANT TASKS
  
 --look into ray-x/lsp_signature.nvim if not happy with current signature help 
---get debugger
 --Learn more about BUFFERS 
 
 
@@ -39,11 +26,10 @@ MEDIUM IMPORTANT TASKS
 LOW PRIORITY TASKS 
 
 --modify statusline to make more personal
---change colorscheme to look like vscode dark high contrast
 --how to resize split windows in nvim if not wanting to use mouse
--- warning |mini.icons| is not installed
 --how to get rid of treesitter highlighting if not needed anymore, can be annoying 
 --look into mini.nvim
+--warning |mini.icons| is not installed
 
 
 
@@ -86,3 +72,4 @@ DONE TASKS
  --LEARN TMUX and maybe change pane splitting keybindings
 --VIM MOTIONS IN TMUX TERMINAL USING NVIM-TMUX-NAVIGATOR
 --CMAKE FOR SCHOOL PROJECTS
+--change colorscheme to look like vscode dark high contrast
