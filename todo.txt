@@ -9,7 +9,6 @@
 LSP
 --GET LSP [1/2]
   --treesitter? https://www.youtube.com/watch?v=MpnjYb-t12A&ab_channel=TJDeVries
-  --syntax highlight delay after writing code or until enter normal mode
 	--learn and document what all new keybindings do 
 
 
@@ -19,9 +18,7 @@ LSP
 
 HIGH PRIORITY TASKS
 
---VIM MOTIONS IN TMUX TERMINAL USING NVIM-TMUX-NAVIGATOR
---CMAKE FOR SCHOOL PROJECTS
- --LEARN GIT COMMANDS
+--LEARN GIT COMMANDS
 --LEARN NVIM MACROS 
 
 
@@ -87,3 +84,5 @@ DONE TASKS
 
  --laptop connected to config repo 
  --LEARN TMUX and maybe change pane splitting keybindings
+--VIM MOTIONS IN TMUX TERMINAL USING NVIM-TMUX-NAVIGATOR
+--CMAKE FOR SCHOOL PROJECTS
