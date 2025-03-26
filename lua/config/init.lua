@@ -2,5 +2,5 @@ require("config.lazy") --neovim always looks inside init.lua files to find stuff
 require("config.keymappings")
 require("config.set")
 require("config.autocmd")
-require("config.colors")
+-- require("config.colors")
 require("config.clipboard")
