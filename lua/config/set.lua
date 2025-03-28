@@ -20,8 +20,8 @@ opt.expandtab = true -- pressing tab key will insert spaces instead of tab chara
 --self explainatory
 opt.smartindent = true
 
---dont wrap text
-opt.wrap = false
+--wrap text
+opt.wrap = true
 
 --makes normal mode blink
 --makes insert mode cursor small
