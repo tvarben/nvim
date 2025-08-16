@@ -1,8 +1,6 @@
 
 HIGH PRIORITY TASKS
 
---GET DEBUGGER
---WINDOW MANAGER(I3, SWAY, HYPRLAND, e.t.c) FOR LINUX
 
 --LEARN GIT COMMANDS
 --LEARN NVIM MACROS 
@@ -20,7 +18,7 @@ LSP
 
 MEDIUM IMPORTANT TASKS
  
---look into ray-x/lsp_signature.nvim if not happy with current signature help 
+
 --Learn more about BUFFERS 
 
 
@@ -33,7 +31,7 @@ LOW PRIORITY TASKS
 --look into mini.nvim
 --warning |mini.icons| is not installed
 
-
+--look into ray-x/lsp_signature.nvim if not happy with current signature help 
 
 
 
@@ -75,3 +73,5 @@ DONE TASKS
 --VIM MOTIONS IN TMUX TERMINAL USING NVIM-TMUX-NAVIGATOR
 --CMAKE FOR SCHOOL PROJECTS
 --change colorscheme to look like vscode dark high contrast
+
+--WINDOW MANAGER(I3, SWAY, HYPRLAND, e.t.c) FOR LINUX
